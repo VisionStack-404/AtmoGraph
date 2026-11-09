@@ -20,4 +20,4 @@ Contributions and feedback are welcome. Please open an issue to discuss a propos
 
 ## License
 
-A license has not been specified yet. Please check back for licensing information before using or distributing this project.
+A license has not been specified yet. Please check back for licensing information before using or distributing this project
