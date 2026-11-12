@@ -1,14 +1,17 @@
 # AtmoGraph – Graph Engineering
 
 ## 1. Project Overview
+
 AtmoGraph is a Supply Chain Ripple Effect Predictor. It aims to identify how disruptions in one part of a supply chain can affect connected suppliers, ports, factories and downstream businesses.
 
 ## 2. My Role
+
 **Member 1 – Graph Engineer**
 
 Responsible for designing and managing the supply-chain graph using Neo4j.
 
 ## 3. Responsibilities
+
 - Set up and manage the Neo4j database.
 - Design graph nodes such as Supplier, Port and Factory.
 - Create relationships between supply-chain entities.
@@ -21,20 +24,37 @@ Responsible for designing and managing the supply-chain graph using Neo4j.
 
 | Technology | Purpose |
 |---|---|
-| Python | Data processing and integration |
+| Python 3.10+ | Data processing and integration |
 | Neo4j | Graph database |
 | Cypher | Graph query language |
 | Pandas | CSV data processing |
+| Neo4j Python Driver | Connecting Python with Neo4j |
+| python-dotenv | Managing environment configuration |
 | Git & GitHub | Version control |
 | VS Code | Development environment |
 
 ## 5. Project Structure
-- `data/raw/` – Original datasets
-- `data/processed/` – Cleaned datasets
-- `cypher/` – Neo4j queries
-- `src/` – Python source code
-- `tests/` – Testing scripts
-- `docs/` – Project documentation
+
+```text
+graph_engineering/
+│
+├── data/
+│   ├── raw/                # Original datasets
+│   └── processed/          # Cleaned datasets
+│
+├── cypher/                 # Neo4j queries
+│
+├── src/                    # Python source code
+│
+├── tests/                  # Testing scripts
+│
+├── docs/
+│   ├── folder-structure.md # Project folder documentation
+│   └── setup.md            # Development environment setup
+│
+├── requirements.txt        # Python dependencies
+├── .gitignore              # Files excluded from Git
+└── README.md               # Module documentation
 
 ## 6. Module Workflow
 1. Read supply-chain data from CSV files.
@@ -62,4 +82,4 @@ Responsible for designing and managing the supply-chain graph using Neo4j.
 - Cypher risk-update query functions.
 
 ## 10. Development Status
-Initial project structure created. Neo4j setup and graph implementation are planned.
+Initial project structure created. Python dependency configuration and development environment setup documentation added. Neo4j database setup and graph implementation are planned and will be developed in the upcoming stages.
