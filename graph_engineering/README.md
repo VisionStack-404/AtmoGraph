@@ -29,34 +29,26 @@ Responsible for designing and managing the supply-chain graph using Neo4j.
 | Cypher | Graph query language |
 | Pandas | CSV data processing |
 | Neo4j Python Driver | Connecting Python with Neo4j |
-| python-dotenv | Managing environment configuration |
+| python-dotenv | Environment configuration |
 | Git & GitHub | Version control |
 | VS Code | Development environment |
 
 ## 5. Project Structure
 
-```text
-graph_engineering/
-│
-├── data/
-│   ├── raw/                # Original datasets
-│   └── processed/          # Cleaned datasets
-│
-├── cypher/                 # Neo4j queries
-│
-├── src/                    # Python source code
-│
-├── tests/                  # Testing scripts
-│
-├── docs/
-│   ├── folder-structure.md # Project folder documentation
-│   └── setup.md            # Development environment setup
-│
-├── requirements.txt        # Python dependencies
-├── .gitignore              # Files excluded from Git
-└── README.md               # Module documentation
+- `data/raw/` – Original supply-chain datasets.
+- `data/processed/` – Cleaned datasets.
+- `cypher/` – Neo4j queries.
+- `src/` – Python source code.
+- `tests/` – Testing scripts.
+- `docs/` – Project documentation.
+- `requirements.txt` – Python dependencies.
+
+For the detailed directory structure, refer to [folder-structure.md](docs/folder-structure.md).
+
+For environment configuration instructions, refer to [setup.md](docs/setup.md).
 
 ## 6. Module Workflow
+
 1. Read supply-chain data from CSV files.
 2. Process the data using Python and Pandas.
 3. Create nodes and relationships in Neo4j.
@@ -65,21 +57,25 @@ graph_engineering/
 6. Provide graph data to the GNN module.
 
 ## 7. Team Integration
+
 - **NLP:** Extracts disruption information from news.
 - **Graph Engineering:** Stores and connects supply-chain entities.
 - **GNN & ML:** Predicts potential downstream disruptions.
 - **Frontend & API:** Displays the graph and prediction results.
 
 ## 8. Development Plan
+
 - **Week 1:** Neo4j setup and mock supply-chain graph prototype.
 - **Week 2:** CSV data ingestion and graph development.
 - **Week 3:** Support GNN integration and graph-based predictions.
 - **Week 4:** Testing, documentation and final integration.
 
 ## 9. Expected Deliverables
+
 - Running Neo4j database.
 - Python script to convert CSV data into graph nodes and relationships.
 - Cypher risk-update query functions.
 
 ## 10. Development Status
-Initial project structure created. Python dependency configuration and development environment setup documentation added. Neo4j database setup and graph implementation are planned and will be developed in the upcoming stages.
+
+Initial project structure created. Python dependency configuration and development environment setup documentation added. Neo4j database setup and graph implementation are planned for the upcoming development stages.
