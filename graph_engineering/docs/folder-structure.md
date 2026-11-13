@@ -4,27 +4,21 @@ This directory contains the Graph Engineering module for the AtmoGraph project.
 
 ## 1. Directory Structure
 
-```text
 graph_engineering/
-│
 ├── data/
 │   ├── raw/
 │   └── processed/
-│
 ├── cypher/
-│
 ├── src/
-│
+│   └── neo4j_connection.py
 ├── tests/
-│
 ├── docs/
 │   ├── folder-structure.md
 │   └── setup.md
-│
-├── requirements.txt
+├── .env.example
 ├── .gitignore
+├── requirements.txt
 └── README.md
-```
 
 ## 2. Directory Guide
 
@@ -37,6 +31,13 @@ graph_engineering/
 - `requirements.txt` – Lists the Python dependencies required by the project.
 - `.gitignore` – Specifies files and directories that Git should not track.
 - `README.md` – Provides an overview of the Graph Engineering module.
+- `.env.example`: Template containing the required Neo4j configuration variables.
+- `src/neo4j_connection.py`: Establishes and verifies the Python connection to Neo4j.
+- `docs/setup.md`: Explains environment configuration, dependency installation, and database connection setup.
+
+### Security Note
+
+The actual `.env` file contains local database credentials and is excluded from version control.
 
 ## 3. Initial Scope
 

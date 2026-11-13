@@ -76,6 +76,55 @@ The Python database connection and graph implementation will be added during the
 - Never commit passwords, credentials or secret configuration files to Git.
 - Ensure `.venv/`, `.env` and Python cache files are excluded through `.gitignore`.
 
+
+## Neo4j Database Configuration and Python Connection
+
+### 1. Start Neo4j
+
+- Open Neo4j Desktop.
+- Open the AtmoGraph project.
+- Start the local database instance.
+
+### 2. Configure Environment Variables
+
+Copy the example configuration file:
+
+    Copy-Item .env.example .env
+
+Open the `.env` file and configure:
+
+    NEO4J_URI=neo4j://127.0.0.1:7687
+    NEO4J_USERNAME=neo4j
+    NEO4J_PASSWORD=your_local_database_password
+    NEO4J_DATABASE=amtograph
+
+Replace the password placeholder with your actual local database password.
+
+### 3. Install Python Dependencies
+
+From the graph_engineering directory, run:
+
+    python -m pip install -r requirements.txt
+
+### 4. Test the Database Connection
+
+Run:
+
+    python src/neo4j_connection.py
+
+Expected output:
+
+    Successfully connected to Neo4j!
+    AtmoGraph Connected!
+
+This confirms that the Python application can connect to the configured Neo4j database and execute a test Cypher query.
+
+### 5. Security
+
+- Never commit the actual `.env` file.
+- Keep database credentials private.
+- Commit `.env.example` with placeholder values.
+
 ## 8. Development Notes
 
 All Python dependencies should be maintained in `requirements.txt`.
