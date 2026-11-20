@@ -30,7 +30,16 @@
                             "text": "U.S.",
                             "source_field": "description"
                         }
-                    ]
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "A labour dispute at U.S. West Coast ports disrupted Asian supply lines and cargo movements. The earlier summary associated production slowdowns with automotive manufacturers. Verify each company-level impact against the full article before creating graph relationships.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "The disruption occurred at U.S. West Coast ports.",
+                    "relationship_eligible": true
                 }
             ],
             "ports_or_facilities": [
@@ -135,7 +144,29 @@
                             "text": "China",
                             "source_field": "location"
                         }
-                    ]
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "An explosion at Tianjin disrupted port operations, including iron ore deliveries and tanker activity. Verify the named companies' direct exposure and exact shipment impacts from the article before encoding relationships.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "The explosion at Tianjin disrupted port operations.",
+                    "relationship_eligible": true
+                },
+                {
+                    "name": "Australia",
+                    "evidence": [
+                        {
+                            "text": "Australia",
+                            "source_field": "location"
+                        }
+                    ],
+                    "impact_status": "mentioned_only",
+                    "impact_evidence": [],
+                    "impact_note": "Shipments from Australia are mentioned, but the description does not establish a disruption in Australia.",
+                    "relationship_eligible": false
                 }
             ],
             "ports_or_facilities": [
@@ -224,7 +255,16 @@
                             "text": "U.S.",
                             "source_field": "description"
                         }
-                    ]
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "Hanjin Shipping's crisis disrupted cargo movements and created logistical difficulties for U.S. importers. Confirm each named importer and port connection against the full report before adding graph edges.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "The disruption affected cargo movements and import logistics in the United States.",
+                    "relationship_eligible": true
                 }
             ],
             "ports_or_facilities": [
@@ -337,7 +377,16 @@
                             "text": "India",
                             "source_field": "location"
                         }
-                    ]
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "The global cyberattack affected Maersk's operations and disrupted activity at the JNPT terminal operated by APM Terminals. Treat any additional port impact as a separate claim requiring confirmation.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "The cyberattack disrupted operations at the JNPT terminal in India.",
+                    "relationship_eligible": true
                 }
             ],
             "ports_or_facilities": [
@@ -424,7 +473,16 @@
                             "text": "Dominican Republic",
                             "source_field": "location"
                         }
-                    ]
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria. The listed energy companies and facilities need individual verification against the article before asserting direct impact relationships.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria.",
+                    "relationship_eligible": true
                 }
             ],
             "ports_or_facilities": [
