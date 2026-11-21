@@ -1,0 +1,607 @@
+[
+    {
+        "event_id": "DISRUPTION_NEWS001",
+        "article_id": "NEWS001",
+        "article_title": "Asian supply lines hit by U.S. West Coast ports dispute",
+        "source": "Reuters (republished by Investing.com)",
+        "article_url": "https://www.investing.com/news/stock-market-news/asian-supply-lines-hit-by-u.s.-west-coast-ports-dispute-328231",
+        "publication_date": "2015-02-16",
+        "disruption_type": [
+            "Labour dispute",
+            "port congestion",
+            "shipping delays",
+            "factory production slowdown"
+        ],
+        "explicit_entities": {
+            "minerals": [],
+            "countries": [
+                {
+                    "name": "United States",
+                    "evidence": [
+                        {
+                            "text": "United States",
+                            "source_field": "location"
+                        },
+                        {
+                            "text": "U.S.",
+                            "source_field": "article_title"
+                        },
+                        {
+                            "text": "U.S.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "A labour dispute at U.S. West Coast ports disrupted Asian supply lines and cargo movements. The earlier summary associated production slowdowns with automotive manufacturers. Verify each company-level impact against the full article before creating graph relationships.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "The disruption occurred at U.S. West Coast ports.",
+                    "relationship_eligible": true
+                }
+            ],
+            "ports_or_facilities": [
+                {
+                    "name": "U.S. West Coast ports",
+                    "evidence": [
+                        {
+                            "text": "U.S. West Coast ports",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                }
+            ],
+            "companies_or_organizations": [
+                {
+                    "name": "Honda",
+                    "evidence": [
+                        {
+                            "text": "Honda",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "Subaru",
+                    "evidence": [
+                        {
+                            "text": "Subaru",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "Toyota",
+                    "evidence": [
+                        {
+                            "text": "Toyota",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "Pacific Maritime Association",
+                    "evidence": [
+                        {
+                            "text": "Pacific Maritime Association",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "International Longshore and Warehouse Union",
+                    "evidence": [
+                        {
+                            "text": "International Longshore and Warehouse Union",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                }
+            ]
+        },
+        "inferred_entities": {
+            "minerals": [],
+            "countries": [],
+            "ports_or_facilities": [],
+            "companies_or_organizations": []
+        },
+        "nlp_confidence": null,
+        "disruption_severity": null,
+        "evidence_summary": "A labour dispute at U.S. West Coast ports disrupted Asian supply lines and cargo movements. The earlier summary associated production slowdowns with automotive manufacturers. Verify each company-level impact against the full article before creating graph relationships.",
+        "entity_verification_status": "Review company-level links against article text"
+    },
+    {
+        "event_id": "DISRUPTION_NEWS002",
+        "article_id": "NEWS002",
+        "article_title": "China port blast hits iron ore deliveries, tanker operations",
+        "source": "Reuters (republished by Investing.com)",
+        "article_url": "https://au.investing.com/news/commodities-news/rpt-refile-update-1-china-port-blast-hits-iron-ore-deliveries,-tanker-operations-4559",
+        "publication_date": "2015-08-14",
+        "disruption_type": [
+            "Industrial accident",
+            "port operations disruption",
+            "iron ore delivery delays",
+            "tanker disruption"
+        ],
+        "explicit_entities": {
+            "minerals": [],
+            "countries": [
+                {
+                    "name": "China",
+                    "evidence": [
+                        {
+                            "text": "China",
+                            "source_field": "article_title"
+                        },
+                        {
+                            "text": "China",
+                            "source_field": "location"
+                        }
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "An explosion at Tianjin disrupted port operations, including iron ore deliveries and tanker activity. Verify the named companies' direct exposure and exact shipment impacts from the article before encoding relationships.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "The explosion at Tianjin disrupted port operations.",
+                    "relationship_eligible": true
+                },
+                {
+                    "name": "Australia",
+                    "evidence": [
+                        {
+                            "text": "Australia",
+                            "source_field": "location"
+                        }
+                    ],
+                    "impact_status": "mentioned_only",
+                    "impact_evidence": [],
+                    "impact_note": "Shipments from Australia are mentioned, but the description does not establish a disruption in Australia.",
+                    "relationship_eligible": false
+                }
+            ],
+            "ports_or_facilities": [
+                {
+                    "name": "Tianjin Port",
+                    "evidence": [
+                        {
+                            "text": "Tianjin Port",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                }
+            ],
+            "companies_or_organizations": [
+                {
+                    "name": "BHP",
+                    "evidence": [
+                        {
+                            "text": "BHP",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "Fortescue",
+                    "evidence": [
+                        {
+                            "text": "Fortescue",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "Rio Tinto",
+                    "evidence": [
+                        {
+                            "text": "Rio Tinto",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                }
+            ]
+        },
+        "inferred_entities": {
+            "minerals": [],
+            "countries": [],
+            "ports_or_facilities": [],
+            "companies_or_organizations": []
+        },
+        "nlp_confidence": null,
+        "disruption_severity": null,
+        "evidence_summary": "An explosion at Tianjin disrupted port operations, including iron ore deliveries and tanker activity. Verify the named companies' direct exposure and exact shipment impacts from the article before encoding relationships.",
+        "entity_verification_status": "Review company-level links against article text"
+    },
+    {
+        "event_id": "DISRUPTION_NEWS003",
+        "article_id": "NEWS003",
+        "article_title": "Hanjin crisis brings new headache to U.S. importers; trailer shortage looms",
+        "source": "Reuters (republished by Yahoo Finance)",
+        "article_url": "https://finance.yahoo.com/news/hanjin-crisis-brings-headache-u-000908712.html",
+        "publication_date": "2016-09-14",
+        "disruption_type": [
+            "Shipping company bankruptcy",
+            "stranded containers",
+            "container/trailer shortage",
+            "port congestion"
+        ],
+        "explicit_entities": {
+            "minerals": [],
+            "countries": [
+                {
+                    "name": "United States",
+                    "evidence": [
+                        {
+                            "text": "United States",
+                            "source_field": "location"
+                        },
+                        {
+                            "text": "U.S.",
+                            "source_field": "article_title"
+                        },
+                        {
+                            "text": "U.S.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "Hanjin Shipping's crisis disrupted cargo movements and created logistical difficulties for U.S. importers. Confirm each named importer and port connection against the full report before adding graph edges.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "The disruption affected cargo movements and import logistics in the United States.",
+                    "relationship_eligible": true
+                }
+            ],
+            "ports_or_facilities": [
+                {
+                    "name": "Port of Long Beach",
+                    "evidence": [
+                        {
+                            "text": "Port of Long Beach",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                },
+                {
+                    "name": "Port of Oakland",
+                    "evidence": [
+                        {
+                            "text": "Port of Oakland",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                }
+            ],
+            "companies_or_organizations": [
+                {
+                    "name": "Hanjin Shipping",
+                    "evidence": [
+                        {
+                            "text": "Hanjin Shipping",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "HP Inc.",
+                    "evidence": [
+                        {
+                            "text": "HP Inc.",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "Samsung Electronics",
+                    "evidence": [
+                        {
+                            "text": "Samsung Electronics",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "Home Shopping Network",
+                    "evidence": [
+                        {
+                            "text": "Home Shopping Network",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "Kroger",
+                    "evidence": [
+                        {
+                            "text": "Kroger",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                }
+            ]
+        },
+        "inferred_entities": {
+            "minerals": [],
+            "countries": [],
+            "ports_or_facilities": [],
+            "companies_or_organizations": []
+        },
+        "nlp_confidence": null,
+        "disruption_severity": null,
+        "evidence_summary": "Hanjin Shipping's crisis disrupted cargo movements and created logistical difficulties for U.S. importers. Confirm each named importer and port connection against the full report before adding graph edges.",
+        "entity_verification_status": "Review company-level links against article text"
+    },
+    {
+        "event_id": "DISRUPTION_NEWS004",
+        "article_id": "NEWS004",
+        "article_title": "India's largest container port hit by global cyber attack",
+        "source": "Reuters (republished by Investing.com)",
+        "article_url": "https://www.investing.com/news/technology-news/india's-largest-container-port-hit-by-global-cyber-attack-499921",
+        "publication_date": "2017-06-28",
+        "disruption_type": [
+            "Cyberattack",
+            "terminal operations disruption",
+            "cargo delays"
+        ],
+        "explicit_entities": {
+            "minerals": [],
+            "countries": [
+                {
+                    "name": "India",
+                    "evidence": [
+                        {
+                            "text": "India",
+                            "source_field": "article_title"
+                        },
+                        {
+                            "text": "India",
+                            "source_field": "location"
+                        }
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "The global cyberattack affected Maersk's operations and disrupted activity at the JNPT terminal operated by APM Terminals. Treat any additional port impact as a separate claim requiring confirmation.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "The cyberattack disrupted operations at the JNPT terminal in India.",
+                    "relationship_eligible": true
+                }
+            ],
+            "ports_or_facilities": [
+                {
+                    "name": "Jawaharlal Nehru Port (JNPT)",
+                    "evidence": [
+                        {
+                            "text": "Jawaharlal Nehru Port (JNPT)",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gujarat Pipavav Port",
+                    "evidence": [
+                        {
+                            "text": "Gujarat Pipavav Port",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                }
+            ],
+            "companies_or_organizations": [
+                {
+                    "name": "A.P. Moller-Maersk",
+                    "evidence": [
+                        {
+                            "text": "A.P. Moller-Maersk",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "APM Terminals",
+                    "evidence": [
+                        {
+                            "text": "APM Terminals",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                }
+            ]
+        },
+        "inferred_entities": {
+            "minerals": [],
+            "countries": [],
+            "ports_or_facilities": [],
+            "companies_or_organizations": []
+        },
+        "nlp_confidence": null,
+        "disruption_severity": null,
+        "evidence_summary": "The global cyberattack affected Maersk's operations and disrupted activity at the JNPT terminal operated by APM Terminals. Treat any additional port impact as a separate claim requiring confirmation.",
+        "entity_verification_status": "JNPT / APM Terminals connection reported; verify other port claims"
+    },
+    {
+        "event_id": "DISRUPTION_NEWS005",
+        "article_id": "NEWS005",
+        "article_title": "Dominican Republic shuts most ports ahead of Hurricane Maria",
+        "source": "Reuters (republished by EgyptToday)",
+        "article_url": "https://www.egypttoday.com/Article/1/23819/Dominican-Republic-shuts-most-ports-ahead-of-Hurricane-Maria",
+        "publication_date": "2017-09-20",
+        "disruption_type": [
+            "Hurricane",
+            "weather-related port closures",
+            "terminal operations disruption"
+        ],
+        "explicit_entities": {
+            "minerals": [],
+            "countries": [
+                {
+                    "name": "Dominican Republic",
+                    "evidence": [
+                        {
+                            "text": "Dominican Republic",
+                            "source_field": "article_title"
+                        },
+                        {
+                            "text": "Dominican Republic",
+                            "source_field": "description"
+                        },
+                        {
+                            "text": "Dominican Republic",
+                            "source_field": "location"
+                        }
+                    ],
+                    "impact_status": "affected",
+                    "impact_evidence": [
+                        {
+                            "text": "Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria. The listed energy companies and facilities need individual verification against the article before asserting direct impact relationships.",
+                            "source_field": "description"
+                        }
+                    ],
+                    "impact_note": "Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria.",
+                    "relationship_eligible": true
+                }
+            ],
+            "ports_or_facilities": [
+                {
+                    "name": "La Romana",
+                    "evidence": [
+                        {
+                            "text": "La Romana",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                },
+                {
+                    "name": "Samana",
+                    "evidence": [
+                        {
+                            "text": "Samana",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                },
+                {
+                    "name": "Arroyo Barril",
+                    "evidence": [
+                        {
+                            "text": "Arroyo Barril",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                },
+                {
+                    "name": "Puerto Plata",
+                    "evidence": [
+                        {
+                            "text": "Puerto Plata",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                },
+                {
+                    "name": "Manzanillo",
+                    "evidence": [
+                        {
+                            "text": "Manzanillo",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                },
+                {
+                    "name": "San Souci",
+                    "evidence": [
+                        {
+                            "text": "San Souci",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                },
+                {
+                    "name": "Haina",
+                    "evidence": [
+                        {
+                            "text": "Haina",
+                            "source_field": "affected_ports_or_facilities"
+                        }
+                    ]
+                }
+            ],
+            "companies_or_organizations": [
+                {
+                    "name": "Refidomsa",
+                    "evidence": [
+                        {
+                            "text": "Refidomsa",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "PDVSA",
+                    "evidence": [
+                        {
+                            "text": "PDVSA",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "Buckeye Partners",
+                    "evidence": [
+                        {
+                            "text": "Buckeye Partners",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                },
+                {
+                    "name": "NuStar Energy",
+                    "evidence": [
+                        {
+                            "text": "NuStar Energy",
+                            "source_field": "affected_companies"
+                        }
+                    ],
+                    "verification": "Pending full article verification"
+                }
+            ]
+        },
+        "inferred_entities": {
+            "minerals": [],
+            "countries": [],
+            "ports_or_facilities": [],
+            "companies_or_organizations": []
+        },
+        "nlp_confidence": null,
+        "disruption_severity": null,
+        "evidence_summary": "Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria. The listed energy companies and facilities need individual verification against the article before asserting direct impact relationships.",
+        "entity_verification_status": "Review company and facility links against article text"
+    }
+]
