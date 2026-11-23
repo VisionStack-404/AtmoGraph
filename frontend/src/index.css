@@ -149,3 +149,52 @@ body {
     height: 450px;
   }
 }
+
+
+.details-panel {
+  margin-top: 20px;
+  padding: 22px;
+  background: #172338;
+  border: 1px solid #334155;
+  border-radius: 12px;
+}
+
+.details-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.details-heading h3 {
+  margin: 0;
+}
+
+.details-heading button {
+  background: #334155;
+  color: #f8fafc;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.details-panel p {
+  color: #cbd5e1;
+  margin: 10px 0;
+}
+
+.error-banner {
+  padding: 14px;
+  margin-bottom: 18px;
+  border: 1px solid #ef4444;
+  border-radius: 8px;
+  color: #fca5a5;
+  background: #451a1a;
+}
+
+.loading-message {
+  padding: 40px;
+  text-align: center;
+  color: #94a3b8;
+}

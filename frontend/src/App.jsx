@@ -1,4 +1,7 @@
 
+import { useEffect, useState } from "react";
+import axios from "axios";
+
 import {
   ReactFlow,
   Background,
@@ -10,70 +13,104 @@ import {
 import "@xyflow/react/dist/style.css";
 import "./index.css";
 
-const nodeStyle = {
-  width: 165,
-  padding: 12,
-  borderRadius: 10,
-  color: "#f8fafc",
-  fontWeight: 600,
-  fontSize: 13,
-  textAlign: "center",
-  border: "1px solid #475569",
-  background: "#1e293b",
+const API_URL = "http://127.0.0.1:8000/api/graph";
+
+// Positions for the sample supply-chain layout
+const positions = {
+  s1: { x: 0, y: 80 },
+  s2: { x: 0, y: 300 },
+  p1: { x: 260, y: 80 },
+  p2: { x: 260, y: 300 },
+  f1: { x: 520, y: 80 },
+  f2: { x: 520, y: 300 },
+  w1: { x: 780, y: 80 },
+  w2: { x: 780, y: 300 },
+  c1: { x: 1040, y: 80 },
+  c2: { x: 1040, y: 300 },
 };
 
-const createNode = (id, label, type, x, y, color) => ({
-  id,
-  position: { x, y },
-  data: { label: `${label}\n${type}` },
-  style: {
-    ...nodeStyle,
-    border: `1px solid ${color}`,
-    background: `${color}22`,
-  },
-});
-
-const initialNodes = [
-  createNode("s1", "Shanghai Supplier", "Supplier", 0, 80, "#38bdf8"),
-  createNode("s2", "Tokyo Supplier", "Supplier", 0, 300, "#38bdf8"),
-
-  createNode("p1", "Singapore Port", "Port", 260, 80, "#a78bfa"),
-  createNode("p2", "Hamburg Port", "Port", 260, 300, "#a78bfa"),
-
-  createNode("f1", "Berlin Factory", "Factory", 520, 80, "#34d399"),
-  createNode("f2", "Munich Factory", "Factory", 520, 300, "#34d399"),
-
-  createNode("w1", "Frankfurt Warehouse", "Warehouse", 780, 80, "#fbbf24"),
-  createNode("w2", "Paris Warehouse", "Warehouse", 780, 300, "#fbbf24"),
-
-  createNode("c1", "London Retailer", "Customer", 1040, 80, "#fb7185"),
-  createNode("c2", "New York Retailer", "Customer", 1040, 300, "#fb7185"),
-];
-
-const initialEdges = [
-  ["s1", "p1"],
-  ["s1", "p2"],
-  ["s2", "p1"],
-  ["s2", "p2"],
-  ["p1", "f1"],
-  ["p2", "f2"],
-  ["f1", "w1"],
-  ["f2", "w2"],
-  ["w1", "c1"],
-  ["w2", "c2"],
-].map(([source, target], index) => ({
-  id: `edge-${index}`,
-  source,
-  target,
-  animated: true,
-  style: { stroke: "#64748b", strokeWidth: 2 },
-  markerEnd: {
-    type: MarkerType.ArrowClosed,
-    color: "#64748b",
-  },
-}));
+const colors = {
+  Supplier: "#38bdf8",
+  Port: "#a78bfa",
+  Factory: "#34d399",
+  Warehouse: "#fbbf24",
+  Customer: "#fb7185",
+};
 
 function App() {
+  const [nodes, setNodes] = useState([]);
+  const [edges, setEdges] = useState([]);
+  const [selectedNode, setSelectedNode] = useState(null);
+
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    const fetchGraph = async () => {
+      try {
+        setLoading(true);
+        setError("");
+
+        const response = await axios.get(API_URL);
+
+        const graphNodes = response.data.nodes.map((item, index) => {
+          const color = colors[item.type] || "#64748b";
+
+          return {
+            id: item.id,
+            position: positions[item.id] || {
+              x: (index % 3) * 260,
+              y: Math.floor(index / 3) * 180,
+            },
+            data: {
+              label: `${item.name}\n${item.type}`,
+              details: item,
+            },
+            style: {
+              width: 165,
+              padding: 12,
+              borderRadius: 10,
+              color: "#f8fafc",
+              fontWeight: 600,
+              fontSize: 13,
+              textAlign: "center",
+              whiteSpace: "pre-line",
+              border: `1px solid ${color}`,
+              background: `${color}22`,
+            },
+          };
+        });
+
+        const graphEdges = response.data.edges.map((edge) => ({
+          id: edge.id,
+          source: edge.source,
+          target: edge.target,
+          animated: true,
+          style: {
+            stroke: "#64748b",
+            strokeWidth: 2,
+          },
+          markerEnd: {
+            type: MarkerType.ArrowClosed,
+            color: "#64748b",
+          },
+        }));
+
+        setNodes(graphNodes);
+        setEdges(graphEdges);
+      } catch (err) {
+        console.error("Graph API error:", err);
+        setError(
+          "Unable to load graph data. Check whether the FastAPI backend is running."
+        );
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchGraph();
+  }, []);
+
   return (
     <div className="app">
       <header className="topbar">
@@ -81,65 +118,85 @@ function App() {
           <h1>AtmoGraph</h1>
           <p>Supply Chain Ripple Effect Predictor</p>
         </div>
-        <span className="status">DEMO NETWORK</span>
+
+        <span className="status">
+          {loading ? "CONNECTING..." : error ? "API ERROR" : "API CONNECTED"}
+        </span>
       </header>
 
       <main className="dashboard">
         <section className="welcome">
-          <div>
-            <h2>Supply Chain Network</h2>
-            <p>
-              Explore suppliers, ports, factories, warehouses
-              and customers through an interconnected network.
-            </p>
-          </div>
+          <h2>Supply Chain Network</h2>
+          <p>
+            Explore suppliers, ports, factories, warehouses
+            and customers through an interconnected network.
+          </p>
         </section>
 
         <section className="stats">
           <div className="stat-card">
             <span>Total Nodes</span>
-            <strong>10</strong>
+            <strong>{nodes.length}</strong>
           </div>
+
           <div className="stat-card">
             <span>Connections</span>
-            <strong>10</strong>
+            <strong>{edges.length}</strong>
           </div>
+
           <div className="stat-card">
             <span>Node Categories</span>
-            <strong>5</strong>
+            <strong>{new Set(nodes.map((n) => n.data.details.type)).size}</strong>
           </div>
+
           <div className="stat-card">
             <span>Data Source</span>
-            <strong className="small-value">Mock Data</strong>
+            <strong className="small-value">FastAPI Sample</strong>
           </div>
         </section>
+
+        {error && <div className="error-banner">{error}</div>}
 
         <section className="graph-section">
           <div className="graph-heading">
             <div>
               <h3>Global Supply Chain Graph</h3>
-              <p>Illustrative network for Week 1 development</p>
+              <p>Graph data retrieved from the AtmoGraph API</p>
             </div>
-            <span className="live-label">10 NODES</span>
+
+            <span className="live-label">{nodes.length} NODES</span>
           </div>
 
           <div className="graph-canvas">
-            <ReactFlow
-              nodes={initialNodes}
-              edges={initialEdges}
-              fitView
-              fitViewOptions={{ padding: 0.2 }}
-              minZoom={0.2}
-              maxZoom={2}
-              nodesConnectable={false}
-            >
-              <Background color="#334155" gap={20} />
-              <Controls />
-              <MiniMap
-                nodeColor={(node) => node.style?.borderColor || "#64748b"}
-                maskColor="rgba(15, 23, 42, 0.7)"
-              />
-            </ReactFlow>
+            {loading ? (
+              <p className="loading-message">Loading supply-chain graph...</p>
+            ) : !error ? (
+              <ReactFlow
+                nodes={nodes}
+                edges={edges}
+                fitView
+                fitViewOptions={{ padding: 0.2 }}
+                minZoom={0.2}
+                maxZoom={2}
+                nodesConnectable={false}
+                onNodeClick={(_, node) =>
+                  setSelectedNode(node.data.details)
+                }
+              >
+                <Background color="#334155" gap={20} />
+                <Controls />
+                <MiniMap
+                  nodeColor={(node) =>
+                    node.style?.borderColor || "#64748b"
+                  }
+                  maskColor="rgba(15, 23, 42, 0.7)"
+                />
+              </ReactFlow>
+            ) : (
+              <p className="loading-message">
+                Graph unavailable.
+              </p>
+            )}
           </div>
 
           <div className="legend">
@@ -150,6 +207,23 @@ function App() {
             <span>🔴 Customer</span>
           </div>
         </section>
+
+        {selectedNode && (
+          <section className="details-panel">
+            <div className="details-heading">
+              <h3>Node Details</h3>
+              <button onClick={() => setSelectedNode(null)}>
+                Close
+              </button>
+            </div>
+
+            <p><strong>Name:</strong> {selectedNode.name}</p>
+            <p><strong>ID:</strong> {selectedNode.id}</p>
+            <p><strong>Type:</strong> {selectedNode.type}</p>
+            <p><strong>Location:</strong> {selectedNode.location}</p>
+            <p><strong>Status:</strong> {selectedNode.status}</p>
+          </section>
+        )}
       </main>
     </div>
   );
