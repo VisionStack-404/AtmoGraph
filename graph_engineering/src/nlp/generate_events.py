@@ -77,16 +77,58 @@ def create_event(row):
     location = str(row["location"]).strip()
     ports = str(row["affected_ports_or_facilities"]).strip()
 
-    # Explicit country detection for this initial baseline.
-    # This is a small controlled vocabulary, not a trained NER model.
+
+    # Extract countries and assess whether each country was affected.
     country_matches = []
 
     country_patterns = [
         ("United States", ["United States", "U.S."]),
         ("China", ["China"]),
         ("India", ["India"]),
-        ("Dominican Republic", ["Dominican Republic"])
+        ("Dominican Republic", ["Dominican Republic"]),
+        ("Australia", ["Australia"])
     ]
+
+    # Evidence-based assessments for the five reviewed articles.
+    # Unknown cases default to uncertain, never automatically affected.
+    country_impact_rules = {
+        "NEWS001": {
+            "United States": {
+                "status": "affected",
+                "note": "The disruption occurred at U.S. West Coast ports."
+            }
+        },
+        "NEWS002": {
+            "China": {
+                "status": "affected",
+                "note": "The explosion at Tianjin disrupted port operations."
+            },
+            "Australia": {
+                "status": "mentioned_only",
+                "note": "Shipments from Australia are mentioned, but the description does not establish a disruption in Australia."
+            }
+        },
+        "NEWS003": {
+            "United States": {
+                "status": "affected",
+                "note": "The disruption affected cargo movements and import logistics in the United States."
+            }
+        },
+        "NEWS004": {
+            "India": {
+                "status": "affected",
+                "note": "The cyberattack disrupted operations at the JNPT terminal in India."
+            }
+        },
+        "NEWS005": {
+            "Dominican Republic": {
+                "status": "affected",
+                "note": "Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria."
+            }
+        }
+    }
+
+    article_id = str(row["article_id"]).strip()
 
     for country, patterns in country_patterns:
         evidence = []
@@ -103,10 +145,37 @@ def create_event(row):
                     )
 
         if evidence:
+            assessment = country_impact_rules.get(
+                article_id, {}
+            ).get(country, {})
+
+            impact_status = assessment.get(
+                "status", "uncertain"
+            )
+
+            impact_evidence = []
+
+            if impact_status == "affected":
+                impact_evidence = make_evidence(
+                    description,
+                    "description"
+                )
+
             country_matches.append({
                 "name": country,
-                "evidence": evidence
+                "evidence": evidence,
+                "impact_status": impact_status,
+                "impact_evidence": impact_evidence,
+                "impact_note": assessment.get(
+                    "note",
+                    "Insufficient evidence to determine country impact."
+                ),
+                "relationship_eligible": (
+                    impact_status == "affected"
+                    and bool(impact_evidence)
+                )
             })
+
 
     # Extract listed organizations from source metadata.
     companies = []
