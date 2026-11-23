@@ -1,0 +1,151 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.topbar {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111c30;
+  border-bottom: 1px solid #334155;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 25px;
+  color: #38bdf8;
+}
+
+.topbar p,
+.welcome p,
+.graph-heading p {
+  color: #94a3b8;
+  margin: 6px 0 0;
+}
+
+.status,
+.live-label {
+  color: #38bdf8;
+  border: 1px solid #075985;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.dashboard {
+  max-width: 1500px;
+  margin: auto;
+  padding: 30px;
+}
+
+.welcome {
+  margin-bottom: 24px;
+}
+
+.welcome h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+.stat-card {
+  background: #172338;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.stat-card span {
+  display: block;
+  color: #94a3b8;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.stat-card strong {
+  font-size: 27px;
+}
+
+.stat-card .small-value {
+  font-size: 19px;
+}
+
+.graph-section {
+  background: #172338;
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.graph-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.graph-heading h3 {
+  margin: 0;
+}
+
+.graph-canvas {
+  height: 540px;
+  width: 100%;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #0f172a;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 18px;
+  color: #cbd5e1;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard {
+    padding: 16px;
+  }
+
+  .topbar {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .graph-canvas {
+    height: 450px;
+  }
+}
