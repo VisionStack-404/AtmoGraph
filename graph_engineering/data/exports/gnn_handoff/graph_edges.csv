@@ -1,0 +1,75 @@
+﻿source_id,source_type,source_global_index,source_type_index,relationship_type,target_id,target_type,target_global_index,target_type_index,properties_json
+DISRUPTION_NEWS001,DisruptionEvent,19,0,AFFECTS_COUNTRY,UNITED_STATES,Country,18,18,"{""impact_evidence_json"": ""[{\""text\"": \""A labour dispute at U.S. West Coast ports disrupted Asian supply lines and cargo movements. The earlier summary associated production slowdowns with automotive manufacturers. Verify each company-level impact against the full article before creating graph relationships.\"", \""source_field\"": \""description\""}]"", ""impact_note"": ""The disruption occurred at U.S. West Coast ports."", ""impact_status"": ""affected"", ""verification_status"": ""manually_verified""}"
+DISRUPTION_NEWS002,DisruptionEvent,20,1,AFFECTS_COUNTRY,CHINA,Country,5,5,"{""impact_evidence_json"": ""[{\""text\"": \""An explosion at Tianjin disrupted port operations, including iron ore deliveries and tanker activity. Verify the named companies' direct exposure and exact shipment impacts from the article before encoding relationships.\"", \""source_field\"": \""description\""}]"", ""impact_note"": ""The explosion at Tianjin disrupted port operations."", ""impact_status"": ""affected"", ""verification_status"": ""manually_verified""}"
+DISRUPTION_NEWS003,DisruptionEvent,21,2,AFFECTS_COUNTRY,UNITED_STATES,Country,18,18,"{""impact_evidence_json"": ""[{\""text\"": \""Hanjin Shipping's crisis disrupted cargo movements and created logistical difficulties for U.S. importers. Confirm each named importer and port connection against the full report before adding graph edges.\"", \""source_field\"": \""description\""}]"", ""impact_note"": ""The disruption affected cargo movements and import logistics in the United States."", ""impact_status"": ""affected"", ""verification_status"": ""manually_verified""}"
+DISRUPTION_NEWS004,DisruptionEvent,22,3,AFFECTS_COUNTRY,INDIA,Country,10,10,"{""impact_evidence_json"": ""[{\""text\"": \""The global cyberattack affected Maersk's operations and disrupted activity at the JNPT terminal operated by APM Terminals. Treat any additional port impact as a separate claim requiring confirmation.\"", \""source_field\"": \""description\""}]"", ""impact_note"": ""The cyberattack disrupted operations at the JNPT terminal in India."", ""impact_status"": ""affected"", ""verification_status"": ""manually_verified""}"
+DISRUPTION_NEWS005,DisruptionEvent,23,4,AFFECTS_COUNTRY,DOMINICAN_REPUBLIC,Country,7,7,"{""impact_evidence_json"": ""[{\""text\"": \""Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria. The listed energy companies and facilities need individual verification against the article before asserting direct impact relationships.\"", \""source_field\"": \""description\""}]"", ""impact_note"": ""Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria."", ""impact_status"": ""affected"", ""verification_status"": ""manually_verified""}"
+1ba64f8e4a2f755d41efdb3faf96f3abfe8575199488cbe8dea6d93b5d6e36d7,ImportSourceRecord,24,0,FOR_MINERAL,NICKEL,Mineral,51,4,{}
+243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef,ImportSourceRecord,25,1,FOR_MINERAL,LITHIUM,Mineral,49,2,{}
+276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2,ImportSourceRecord,26,2,FOR_MINERAL,GRAPHITE,Mineral,48,1,{}
+2b696bd00b1a079002e63b22169b5d1f89ab780c0eeafbaac04c848bdb922cc8,ImportSourceRecord,27,3,FOR_MINERAL,COBALT,Mineral,47,0,{}
+39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2,ImportSourceRecord,28,4,FOR_MINERAL,NICKEL,Mineral,51,4,{}
+3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3,ImportSourceRecord,29,5,FOR_MINERAL,COBALT,Mineral,47,0,{}
+4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767,ImportSourceRecord,30,6,FOR_MINERAL,LITHIUM,Mineral,49,2,{}
+4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068,ImportSourceRecord,31,7,FOR_MINERAL,COBALT,Mineral,47,0,{}
+65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e,ImportSourceRecord,32,8,FOR_MINERAL,GRAPHITE,Mineral,48,1,{}
+6be83c3308a06f51e6c425e86cdaf19c3259e8f424a0f37b828d001dee8c8151,ImportSourceRecord,33,9,FOR_MINERAL,GRAPHITE,Mineral,48,1,{}
+8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206,ImportSourceRecord,34,10,FOR_MINERAL,GRAPHITE,Mineral,48,1,{}
+900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b,ImportSourceRecord,35,11,FOR_MINERAL,MANGANESE,Mineral,50,3,{}
+92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c,ImportSourceRecord,36,12,FOR_MINERAL,MANGANESE,Mineral,50,3,{}
+947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2,ImportSourceRecord,37,13,FOR_MINERAL,NICKEL,Mineral,51,4,{}
+9588cf1c572e1d5cf1f67e1b0c73554bfaeb3b6b9a2deb693d019e56c2791cb3,ImportSourceRecord,38,14,FOR_MINERAL,LITHIUM,Mineral,49,2,{}
+9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453,ImportSourceRecord,39,15,FOR_MINERAL,NICKEL,Mineral,51,4,{}
+a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c,ImportSourceRecord,40,16,FOR_MINERAL,MANGANESE,Mineral,50,3,{}
+b0414063fe2cc57ac50bb2d46d9c779f9c4e2344daf9fade8228f448aec0ab16,ImportSourceRecord,41,17,FOR_MINERAL,MANGANESE,Mineral,50,3,{}
+b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4,ImportSourceRecord,42,18,FOR_MINERAL,COBALT,Mineral,47,0,{}
+c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d,ImportSourceRecord,43,19,FOR_MINERAL,MANGANESE,Mineral,50,3,{}
+e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392,ImportSourceRecord,44,20,FOR_MINERAL,COBALT,Mineral,47,0,{}
+f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca,ImportSourceRecord,45,21,FOR_MINERAL,NICKEL,Mineral,51,4,{}
+f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd,ImportSourceRecord,46,22,FOR_MINERAL,GRAPHITE,Mineral,48,1,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,1ba64f8e4a2f755d41efdb3faf96f3abfe8575199488cbe8dea6d93b5d6e36d7,ImportSourceRecord,24,0,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef,ImportSourceRecord,25,1,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2,ImportSourceRecord,26,2,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,2b696bd00b1a079002e63b22169b5d1f89ab780c0eeafbaac04c848bdb922cc8,ImportSourceRecord,27,3,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2,ImportSourceRecord,28,4,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3,ImportSourceRecord,29,5,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767,ImportSourceRecord,30,6,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068,ImportSourceRecord,31,7,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e,ImportSourceRecord,32,8,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,6be83c3308a06f51e6c425e86cdaf19c3259e8f424a0f37b828d001dee8c8151,ImportSourceRecord,33,9,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206,ImportSourceRecord,34,10,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b,ImportSourceRecord,35,11,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c,ImportSourceRecord,36,12,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2,ImportSourceRecord,37,13,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,9588cf1c572e1d5cf1f67e1b0c73554bfaeb3b6b9a2deb693d019e56c2791cb3,ImportSourceRecord,38,14,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453,ImportSourceRecord,39,15,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c,ImportSourceRecord,40,16,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,b0414063fe2cc57ac50bb2d46d9c779f9c4e2344daf9fade8228f448aec0ab16,ImportSourceRecord,41,17,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4,ImportSourceRecord,42,18,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d,ImportSourceRecord,43,19,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392,ImportSourceRecord,44,20,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca,ImportSourceRecord,45,21,{}
+UNITED_STATES,Country,18,18,HAS_IMPORT_RECORD,f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd,ImportSourceRecord,46,22,{}
+AUSTRALIA,Country,1,1,LEADING_PRODUCER_FOR,LITHIUM,Mineral,49,2,"{""production"": 92000, ""share_of_world_percent"": 32, ""units"": ""metric tons"", ""world_total_production"": 290000, ""year"": ""2025_estimated""}"
+CHINA,Country,5,5,LEADING_PRODUCER_FOR,GRAPHITE,Mineral,48,1,"{""production"": 1400000, ""share_of_world_percent"": 78, ""units"": ""metric tons"", ""world_total_production"": 1800000, ""year"": ""2025_estimated""}"
+CONGO_KINSHASA,Country,6,6,LEADING_PRODUCER_FOR,COBALT,Mineral,47,0,"{""production"": 230000, ""share_of_world_percent"": 74, ""units"": ""metric tons"", ""world_total_production"": 310000, ""year"": ""2025_estimated""}"
+INDONESIA,Country,11,11,LEADING_PRODUCER_FOR,NICKEL,Mineral,51,4,"{""production"": 2600000, ""share_of_world_percent"": 67, ""units"": ""metric tons"", ""world_total_production"": 3900000, ""year"": ""2025_estimated""}"
+SOUTH_AFRICA,Country,17,17,LEADING_PRODUCER_FOR,MANGANESE,Mineral,50,3,"{""production"": 7600000, ""share_of_world_percent"": 37, ""units"": ""metric tons"", ""world_total_production"": 20000000, ""year"": ""2025_estimated""}"
+243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef,ImportSourceRecord,25,1,SOURCE_COUNTRY,ARGENTINA,Country,0,0,{}
+276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2,ImportSourceRecord,26,2,SOURCE_COUNTRY,MOZAMBIQUE,Country,15,15,{}
+39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2,ImportSourceRecord,28,4,SOURCE_COUNTRY,CANADA,Country,3,3,{}
+3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3,ImportSourceRecord,29,5,SOURCE_COUNTRY,JAPAN,Country,12,12,{}
+4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767,ImportSourceRecord,30,6,SOURCE_COUNTRY,CHILE,Country,4,4,{}
+4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068,ImportSourceRecord,31,7,SOURCE_COUNTRY,NORWAY,Country,16,16,{}
+65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e,ImportSourceRecord,32,8,SOURCE_COUNTRY,MEXICO,Country,14,14,{}
+8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206,ImportSourceRecord,34,10,SOURCE_COUNTRY,CHINA,Country,5,5,{}
+900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b,ImportSourceRecord,35,11,SOURCE_COUNTRY,GABON,Country,9,9,{}
+92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c,ImportSourceRecord,36,12,SOURCE_COUNTRY,MALAYSIA,Country,13,13,{}
+947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2,ImportSourceRecord,37,13,SOURCE_COUNTRY,NORWAY,Country,16,16,{}
+9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453,ImportSourceRecord,39,15,SOURCE_COUNTRY,BRAZIL,Country,2,2,{}
+a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c,ImportSourceRecord,40,16,SOURCE_COUNTRY,SOUTH_AFRICA,Country,17,17,{}
+b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4,ImportSourceRecord,42,18,SOURCE_COUNTRY,FINLAND,Country,8,8,{}
+c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d,ImportSourceRecord,43,19,SOURCE_COUNTRY,AUSTRALIA,Country,1,1,{}
+e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392,ImportSourceRecord,44,20,SOURCE_COUNTRY,CANADA,Country,3,3,{}
+f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca,ImportSourceRecord,45,21,SOURCE_COUNTRY,AUSTRALIA,Country,1,1,{}
+f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd,ImportSourceRecord,46,22,SOURCE_COUNTRY,CANADA,Country,3,3,{}

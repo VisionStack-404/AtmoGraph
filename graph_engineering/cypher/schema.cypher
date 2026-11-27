@@ -12,3 +12,7 @@ REQUIRE c.country_id IS UNIQUE;
 CREATE CONSTRAINT import_record_id_unique IF NOT EXISTS
 FOR (r:ImportSourceRecord)
 REQUIRE r.record_id IS UNIQUE;
+
+CREATE CONSTRAINT disruption_event_id_unique IF NOT EXISTS
+FOR (e:DisruptionEvent)
+REQUIRE e.event_id IS UNIQUE;

@@ -1,0 +1,103 @@
+{
+    "database": "amtograph",
+    "total_nodes": 52,
+    "total_relationships": 74,
+    "node_counts": {
+        "Country": 19,
+        "DisruptionEvent": 5,
+        "ImportSourceRecord": 23,
+        "Mineral": 5
+    },
+    "relationship_counts": {
+        "AFFECTS_COUNTRY": 5,
+        "FOR_MINERAL": 23,
+        "HAS_IMPORT_RECORD": 23,
+        "LEADING_PRODUCER_FOR": 5,
+        "SOURCE_COUNTRY": 18
+    },
+    "node_property_inventory": {
+        "Country": [
+            "country_id",
+            "name"
+        ],
+        "DisruptionEvent": [
+            "article_id",
+            "article_title",
+            "article_url",
+            "disruption_type",
+            "entity_verification_status",
+            "event_id",
+            "evidence_summary",
+            "explicit_entities_json",
+            "inferred_entities_json",
+            "publication_date",
+            "source"
+        ],
+        "ImportSourceRecord": [
+            "critical_mineral_flag",
+            "data_period",
+            "import_share_percent",
+            "importing_country_id",
+            "mineral_id",
+            "net_import_reliance_2025",
+            "nir_figure3",
+            "record_id",
+            "source_category",
+            "source_country_id",
+            "source_type"
+        ],
+        "Mineral": [
+            "apparent_consumption",
+            "application_critical_mineral",
+            "applications_data_source",
+            "applications_source_file",
+            "consumption_notes",
+            "critical_mineral",
+            "import_source_notes",
+            "leading_country_production",
+            "leading_source_country",
+            "leading_source_percent_world",
+            "mineral_id",
+            "name",
+            "net_import_reliance",
+            "primary_applications",
+            "primary_import_sources_2021_24",
+            "primary_production",
+            "secondary_production",
+            "source",
+            "units",
+            "world_production_notes",
+            "world_total_production",
+            "year"
+        ]
+    },
+    "edge_property_inventory": {
+        "AFFECTS_COUNTRY": [
+            "impact_evidence_json",
+            "impact_note",
+            "impact_status",
+            "verification_status"
+        ],
+        "FOR_MINERAL": [],
+        "HAS_IMPORT_RECORD": [],
+        "LEADING_PRODUCER_FOR": [
+            "production",
+            "share_of_world_percent",
+            "units",
+            "world_total_production",
+            "year"
+        ],
+        "SOURCE_COUNTRY": []
+    },
+    "validation": {
+        "all_node_ids_present": true,
+        "all_relationship_endpoints_exist": true,
+        "duplicate_node_identities": 0
+    },
+    "gnn_readiness": {
+        "raw_graph_export": true,
+        "numerical_features_engineered": false,
+        "training_labels_available": false,
+        "model_ready": false
+    }
+}
