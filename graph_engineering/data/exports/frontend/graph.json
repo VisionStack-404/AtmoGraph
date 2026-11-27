@@ -1,0 +1,1565 @@
+{
+    "nodes": [
+        {
+            "id": "ARGENTINA",
+            "node_id": "ARGENTINA",
+            "name": "Argentina",
+            "type": "Country",
+            "location": "Argentina",
+            "status": null,
+            "properties": {
+                "name": "Argentina",
+                "country_id": "ARGENTINA"
+            }
+        },
+        {
+            "id": "AUSTRALIA",
+            "node_id": "AUSTRALIA",
+            "name": "Australia",
+            "type": "Country",
+            "location": "Australia",
+            "status": null,
+            "properties": {
+                "name": "Australia",
+                "country_id": "AUSTRALIA"
+            }
+        },
+        {
+            "id": "BRAZIL",
+            "node_id": "BRAZIL",
+            "name": "Brazil",
+            "type": "Country",
+            "location": "Brazil",
+            "status": null,
+            "properties": {
+                "name": "Brazil",
+                "country_id": "BRAZIL"
+            }
+        },
+        {
+            "id": "CANADA",
+            "node_id": "CANADA",
+            "name": "Canada",
+            "type": "Country",
+            "location": "Canada",
+            "status": null,
+            "properties": {
+                "name": "Canada",
+                "country_id": "CANADA"
+            }
+        },
+        {
+            "id": "CHILE",
+            "node_id": "CHILE",
+            "name": "Chile",
+            "type": "Country",
+            "location": "Chile",
+            "status": null,
+            "properties": {
+                "name": "Chile",
+                "country_id": "CHILE"
+            }
+        },
+        {
+            "id": "CHINA",
+            "node_id": "CHINA",
+            "name": "China",
+            "type": "Country",
+            "location": "China",
+            "status": null,
+            "properties": {
+                "name": "China",
+                "country_id": "CHINA"
+            }
+        },
+        {
+            "id": "CONGO_KINSHASA",
+            "node_id": "CONGO_KINSHASA",
+            "name": "Congo (Kinshasa)",
+            "type": "Country",
+            "location": "Congo (Kinshasa)",
+            "status": null,
+            "properties": {
+                "name": "Congo (Kinshasa)",
+                "country_id": "CONGO_KINSHASA"
+            }
+        },
+        {
+            "id": "DOMINICAN_REPUBLIC",
+            "node_id": "DOMINICAN_REPUBLIC",
+            "name": "Dominican Republic",
+            "type": "Country",
+            "location": "Dominican Republic",
+            "status": null,
+            "properties": {
+                "name": "Dominican Republic",
+                "country_id": "DOMINICAN_REPUBLIC"
+            }
+        },
+        {
+            "id": "FINLAND",
+            "node_id": "FINLAND",
+            "name": "Finland",
+            "type": "Country",
+            "location": "Finland",
+            "status": null,
+            "properties": {
+                "name": "Finland",
+                "country_id": "FINLAND"
+            }
+        },
+        {
+            "id": "GABON",
+            "node_id": "GABON",
+            "name": "Gabon",
+            "type": "Country",
+            "location": "Gabon",
+            "status": null,
+            "properties": {
+                "name": "Gabon",
+                "country_id": "GABON"
+            }
+        },
+        {
+            "id": "INDIA",
+            "node_id": "INDIA",
+            "name": "India",
+            "type": "Country",
+            "location": "India",
+            "status": null,
+            "properties": {
+                "name": "India",
+                "country_id": "INDIA"
+            }
+        },
+        {
+            "id": "INDONESIA",
+            "node_id": "INDONESIA",
+            "name": "Indonesia",
+            "type": "Country",
+            "location": "Indonesia",
+            "status": null,
+            "properties": {
+                "name": "Indonesia",
+                "country_id": "INDONESIA"
+            }
+        },
+        {
+            "id": "JAPAN",
+            "node_id": "JAPAN",
+            "name": "Japan",
+            "type": "Country",
+            "location": "Japan",
+            "status": null,
+            "properties": {
+                "name": "Japan",
+                "country_id": "JAPAN"
+            }
+        },
+        {
+            "id": "MALAYSIA",
+            "node_id": "MALAYSIA",
+            "name": "Malaysia",
+            "type": "Country",
+            "location": "Malaysia",
+            "status": null,
+            "properties": {
+                "name": "Malaysia",
+                "country_id": "MALAYSIA"
+            }
+        },
+        {
+            "id": "MEXICO",
+            "node_id": "MEXICO",
+            "name": "Mexico",
+            "type": "Country",
+            "location": "Mexico",
+            "status": null,
+            "properties": {
+                "name": "Mexico",
+                "country_id": "MEXICO"
+            }
+        },
+        {
+            "id": "MOZAMBIQUE",
+            "node_id": "MOZAMBIQUE",
+            "name": "Mozambique",
+            "type": "Country",
+            "location": "Mozambique",
+            "status": null,
+            "properties": {
+                "name": "Mozambique",
+                "country_id": "MOZAMBIQUE"
+            }
+        },
+        {
+            "id": "NORWAY",
+            "node_id": "NORWAY",
+            "name": "Norway",
+            "type": "Country",
+            "location": "Norway",
+            "status": null,
+            "properties": {
+                "name": "Norway",
+                "country_id": "NORWAY"
+            }
+        },
+        {
+            "id": "SOUTH_AFRICA",
+            "node_id": "SOUTH_AFRICA",
+            "name": "South Africa",
+            "type": "Country",
+            "location": "South Africa",
+            "status": null,
+            "properties": {
+                "name": "South Africa",
+                "country_id": "SOUTH_AFRICA"
+            }
+        },
+        {
+            "id": "UNITED_STATES",
+            "node_id": "UNITED_STATES",
+            "name": "United States",
+            "type": "Country",
+            "location": "United States",
+            "status": null,
+            "properties": {
+                "name": "United States",
+                "country_id": "UNITED_STATES"
+            }
+        },
+        {
+            "id": "DISRUPTION_NEWS001",
+            "node_id": "DISRUPTION_NEWS001",
+            "name": "DISRUPTION_NEWS001",
+            "type": "DisruptionEvent",
+            "location": null,
+            "status": null,
+            "properties": {
+                "article_id": "NEWS001",
+                "article_title": "Asian supply lines hit by U.S. West Coast ports dispute",
+                "event_id": "DISRUPTION_NEWS001",
+                "evidence_summary": "A labour dispute at U.S. West Coast ports disrupted Asian supply lines and cargo movements. The earlier summary associated production slowdowns with automotive manufacturers. Verify each company-level impact against the full article before creating graph relationships.",
+                "entity_verification_status": "Review company-level links against article text",
+                "disruption_type": [
+                    "Labour dispute",
+                    "port congestion",
+                    "shipping delays",
+                    "factory production slowdown"
+                ],
+                "explicit_entities_json": "{\"minerals\": [], \"countries\": [{\"name\": \"United States\", \"evidence\": [{\"text\": \"United States\", \"source_field\": \"location\"}, {\"text\": \"U.S.\", \"source_field\": \"article_title\"}, {\"text\": \"U.S.\", \"source_field\": \"description\"}], \"impact_status\": \"affected\", \"impact_evidence\": [{\"text\": \"A labour dispute at U.S. West Coast ports disrupted Asian supply lines and cargo movements. The earlier summary associated production slowdowns with automotive manufacturers. Verify each company-level impact against the full article before creating graph relationships.\", \"source_field\": \"description\"}], \"impact_note\": \"The disruption occurred at U.S. West Coast ports.\", \"relationship_eligible\": true}], \"ports_or_facilities\": [{\"name\": \"U.S. West Coast ports\", \"evidence\": [{\"text\": \"U.S. West Coast ports\", \"source_field\": \"affected_ports_or_facilities\"}]}], \"companies_or_organizations\": [{\"name\": \"Honda\", \"evidence\": [{\"text\": \"Honda\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"Subaru\", \"evidence\": [{\"text\": \"Subaru\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"Toyota\", \"evidence\": [{\"text\": \"Toyota\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"Pacific Maritime Association\", \"evidence\": [{\"text\": \"Pacific Maritime Association\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"International Longshore and Warehouse Union\", \"evidence\": [{\"text\": \"International Longshore and Warehouse Union\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}]}",
+                "publication_date": "2015-02-16",
+                "source": "Reuters (republished by Investing.com)",
+                "article_url": "https://www.investing.com/news/stock-market-news/asian-supply-lines-hit-by-u.s.-west-coast-ports-dispute-328231",
+                "inferred_entities_json": "{\"minerals\": [], \"countries\": [], \"ports_or_facilities\": [], \"companies_or_organizations\": []}"
+            }
+        },
+        {
+            "id": "DISRUPTION_NEWS002",
+            "node_id": "DISRUPTION_NEWS002",
+            "name": "DISRUPTION_NEWS002",
+            "type": "DisruptionEvent",
+            "location": null,
+            "status": null,
+            "properties": {
+                "article_id": "NEWS002",
+                "article_title": "China port blast hits iron ore deliveries, tanker operations",
+                "event_id": "DISRUPTION_NEWS002",
+                "evidence_summary": "An explosion at Tianjin disrupted port operations, including iron ore deliveries and tanker activity. Verify the named companies' direct exposure and exact shipment impacts from the article before encoding relationships.",
+                "entity_verification_status": "Review company-level links against article text",
+                "disruption_type": [
+                    "Industrial accident",
+                    "port operations disruption",
+                    "iron ore delivery delays",
+                    "tanker disruption"
+                ],
+                "explicit_entities_json": "{\"minerals\": [], \"countries\": [{\"name\": \"China\", \"evidence\": [{\"text\": \"China\", \"source_field\": \"article_title\"}, {\"text\": \"China\", \"source_field\": \"location\"}], \"impact_status\": \"affected\", \"impact_evidence\": [{\"text\": \"An explosion at Tianjin disrupted port operations, including iron ore deliveries and tanker activity. Verify the named companies' direct exposure and exact shipment impacts from the article before encoding relationships.\", \"source_field\": \"description\"}], \"impact_note\": \"The explosion at Tianjin disrupted port operations.\", \"relationship_eligible\": true}, {\"name\": \"Australia\", \"evidence\": [{\"text\": \"Australia\", \"source_field\": \"location\"}], \"impact_status\": \"mentioned_only\", \"impact_evidence\": [], \"impact_note\": \"Shipments from Australia are mentioned, but the description does not establish a disruption in Australia.\", \"relationship_eligible\": false}], \"ports_or_facilities\": [{\"name\": \"Tianjin Port\", \"evidence\": [{\"text\": \"Tianjin Port\", \"source_field\": \"affected_ports_or_facilities\"}]}], \"companies_or_organizations\": [{\"name\": \"BHP\", \"evidence\": [{\"text\": \"BHP\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"Fortescue\", \"evidence\": [{\"text\": \"Fortescue\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"Rio Tinto\", \"evidence\": [{\"text\": \"Rio Tinto\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}]}",
+                "publication_date": "2015-08-14",
+                "source": "Reuters (republished by Investing.com)",
+                "article_url": "https://au.investing.com/news/commodities-news/rpt-refile-update-1-china-port-blast-hits-iron-ore-deliveries,-tanker-operations-4559",
+                "inferred_entities_json": "{\"minerals\": [], \"countries\": [], \"ports_or_facilities\": [], \"companies_or_organizations\": []}"
+            }
+        },
+        {
+            "id": "DISRUPTION_NEWS003",
+            "node_id": "DISRUPTION_NEWS003",
+            "name": "DISRUPTION_NEWS003",
+            "type": "DisruptionEvent",
+            "location": null,
+            "status": null,
+            "properties": {
+                "article_id": "NEWS003",
+                "article_title": "Hanjin crisis brings new headache to U.S. importers; trailer shortage looms",
+                "event_id": "DISRUPTION_NEWS003",
+                "evidence_summary": "Hanjin Shipping's crisis disrupted cargo movements and created logistical difficulties for U.S. importers. Confirm each named importer and port connection against the full report before adding graph edges.",
+                "entity_verification_status": "Review company-level links against article text",
+                "disruption_type": [
+                    "Shipping company bankruptcy",
+                    "stranded containers",
+                    "container/trailer shortage",
+                    "port congestion"
+                ],
+                "explicit_entities_json": "{\"minerals\": [], \"countries\": [{\"name\": \"United States\", \"evidence\": [{\"text\": \"United States\", \"source_field\": \"location\"}, {\"text\": \"U.S.\", \"source_field\": \"article_title\"}, {\"text\": \"U.S.\", \"source_field\": \"description\"}], \"impact_status\": \"affected\", \"impact_evidence\": [{\"text\": \"Hanjin Shipping's crisis disrupted cargo movements and created logistical difficulties for U.S. importers. Confirm each named importer and port connection against the full report before adding graph edges.\", \"source_field\": \"description\"}], \"impact_note\": \"The disruption affected cargo movements and import logistics in the United States.\", \"relationship_eligible\": true}], \"ports_or_facilities\": [{\"name\": \"Port of Long Beach\", \"evidence\": [{\"text\": \"Port of Long Beach\", \"source_field\": \"affected_ports_or_facilities\"}]}, {\"name\": \"Port of Oakland\", \"evidence\": [{\"text\": \"Port of Oakland\", \"source_field\": \"affected_ports_or_facilities\"}]}], \"companies_or_organizations\": [{\"name\": \"Hanjin Shipping\", \"evidence\": [{\"text\": \"Hanjin Shipping\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"HP Inc.\", \"evidence\": [{\"text\": \"HP Inc.\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"Samsung Electronics\", \"evidence\": [{\"text\": \"Samsung Electronics\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"Home Shopping Network\", \"evidence\": [{\"text\": \"Home Shopping Network\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"Kroger\", \"evidence\": [{\"text\": \"Kroger\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}]}",
+                "publication_date": "2016-09-14",
+                "source": "Reuters (republished by Yahoo Finance)",
+                "article_url": "https://finance.yahoo.com/news/hanjin-crisis-brings-headache-u-000908712.html",
+                "inferred_entities_json": "{\"minerals\": [], \"countries\": [], \"ports_or_facilities\": [], \"companies_or_organizations\": []}"
+            }
+        },
+        {
+            "id": "DISRUPTION_NEWS004",
+            "node_id": "DISRUPTION_NEWS004",
+            "name": "DISRUPTION_NEWS004",
+            "type": "DisruptionEvent",
+            "location": null,
+            "status": null,
+            "properties": {
+                "article_id": "NEWS004",
+                "article_title": "India's largest container port hit by global cyber attack",
+                "event_id": "DISRUPTION_NEWS004",
+                "evidence_summary": "The global cyberattack affected Maersk's operations and disrupted activity at the JNPT terminal operated by APM Terminals. Treat any additional port impact as a separate claim requiring confirmation.",
+                "entity_verification_status": "JNPT / APM Terminals connection reported; verify other port claims",
+                "disruption_type": [
+                    "Cyberattack",
+                    "terminal operations disruption",
+                    "cargo delays"
+                ],
+                "explicit_entities_json": "{\"minerals\": [], \"countries\": [{\"name\": \"India\", \"evidence\": [{\"text\": \"India\", \"source_field\": \"article_title\"}, {\"text\": \"India\", \"source_field\": \"location\"}], \"impact_status\": \"affected\", \"impact_evidence\": [{\"text\": \"The global cyberattack affected Maersk's operations and disrupted activity at the JNPT terminal operated by APM Terminals. Treat any additional port impact as a separate claim requiring confirmation.\", \"source_field\": \"description\"}], \"impact_note\": \"The cyberattack disrupted operations at the JNPT terminal in India.\", \"relationship_eligible\": true}], \"ports_or_facilities\": [{\"name\": \"Jawaharlal Nehru Port (JNPT)\", \"evidence\": [{\"text\": \"Jawaharlal Nehru Port (JNPT)\", \"source_field\": \"affected_ports_or_facilities\"}]}, {\"name\": \"Gujarat Pipavav Port\", \"evidence\": [{\"text\": \"Gujarat Pipavav Port\", \"source_field\": \"affected_ports_or_facilities\"}]}], \"companies_or_organizations\": [{\"name\": \"A.P. Moller-Maersk\", \"evidence\": [{\"text\": \"A.P. Moller-Maersk\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"APM Terminals\", \"evidence\": [{\"text\": \"APM Terminals\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}]}",
+                "publication_date": "2017-06-28",
+                "source": "Reuters (republished by Investing.com)",
+                "article_url": "https://www.investing.com/news/technology-news/india's-largest-container-port-hit-by-global-cyber-attack-499921",
+                "inferred_entities_json": "{\"minerals\": [], \"countries\": [], \"ports_or_facilities\": [], \"companies_or_organizations\": []}"
+            }
+        },
+        {
+            "id": "DISRUPTION_NEWS005",
+            "node_id": "DISRUPTION_NEWS005",
+            "name": "DISRUPTION_NEWS005",
+            "type": "DisruptionEvent",
+            "location": null,
+            "status": null,
+            "properties": {
+                "article_id": "NEWS005",
+                "article_title": "Dominican Republic shuts most ports ahead of Hurricane Maria",
+                "event_id": "DISRUPTION_NEWS005",
+                "evidence_summary": "Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria. The listed energy companies and facilities need individual verification against the article before asserting direct impact relationships.",
+                "entity_verification_status": "Review company and facility links against article text",
+                "disruption_type": [
+                    "Hurricane",
+                    "weather-related port closures",
+                    "terminal operations disruption"
+                ],
+                "explicit_entities_json": "{\"minerals\": [], \"countries\": [{\"name\": \"Dominican Republic\", \"evidence\": [{\"text\": \"Dominican Republic\", \"source_field\": \"article_title\"}, {\"text\": \"Dominican Republic\", \"source_field\": \"description\"}, {\"text\": \"Dominican Republic\", \"source_field\": \"location\"}], \"impact_status\": \"affected\", \"impact_evidence\": [{\"text\": \"Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria. The listed energy companies and facilities need individual verification against the article before asserting direct impact relationships.\", \"source_field\": \"description\"}], \"impact_note\": \"Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria.\", \"relationship_eligible\": true}], \"ports_or_facilities\": [{\"name\": \"La Romana\", \"evidence\": [{\"text\": \"La Romana\", \"source_field\": \"affected_ports_or_facilities\"}]}, {\"name\": \"Samana\", \"evidence\": [{\"text\": \"Samana\", \"source_field\": \"affected_ports_or_facilities\"}]}, {\"name\": \"Arroyo Barril\", \"evidence\": [{\"text\": \"Arroyo Barril\", \"source_field\": \"affected_ports_or_facilities\"}]}, {\"name\": \"Puerto Plata\", \"evidence\": [{\"text\": \"Puerto Plata\", \"source_field\": \"affected_ports_or_facilities\"}]}, {\"name\": \"Manzanillo\", \"evidence\": [{\"text\": \"Manzanillo\", \"source_field\": \"affected_ports_or_facilities\"}]}, {\"name\": \"San Souci\", \"evidence\": [{\"text\": \"San Souci\", \"source_field\": \"affected_ports_or_facilities\"}]}, {\"name\": \"Haina\", \"evidence\": [{\"text\": \"Haina\", \"source_field\": \"affected_ports_or_facilities\"}]}], \"companies_or_organizations\": [{\"name\": \"Refidomsa\", \"evidence\": [{\"text\": \"Refidomsa\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"PDVSA\", \"evidence\": [{\"text\": \"PDVSA\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"Buckeye Partners\", \"evidence\": [{\"text\": \"Buckeye Partners\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}, {\"name\": \"NuStar Energy\", \"evidence\": [{\"text\": \"NuStar Energy\", \"source_field\": \"affected_companies\"}], \"verification\": \"Pending full article verification\"}]}",
+                "publication_date": "2017-09-20",
+                "source": "Reuters (republished by EgyptToday)",
+                "article_url": "https://www.egypttoday.com/Article/1/23819/Dominican-Republic-shuts-most-ports-ahead-of-Hurricane-Maria",
+                "inferred_entities_json": "{\"minerals\": [], \"countries\": [], \"ports_or_facilities\": [], \"companies_or_organizations\": []}"
+            }
+        },
+        {
+            "id": "1ba64f8e4a2f755d41efdb3faf96f3abfe8575199488cbe8dea6d93b5d6e36d7",
+            "node_id": "1ba64f8e4a2f755d41efdb3faf96f3abfe8575199488cbe8dea6d93b5d6e36d7",
+            "name": "1ba64f8e4a2f755d41efdb3faf96f3abfe8575199488cbe8dea6d93b5d6e36d7",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "1ba64f8e4a2f755d41efdb3faf96f3abfe8575199488cbe8dea6d93b5d6e36d7",
+                "net_import_reliance_2025": 41,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Other",
+                "source_type": "aggregate_other",
+                "import_share_percent": 30,
+                "mineral_id": "NICKEL",
+                "nir_figure3": 41
+            }
+        },
+        {
+            "id": "243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef",
+            "node_id": "243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef",
+            "name": "243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef",
+                "net_import_reliance_2025": ">50",
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Argentina",
+                "source_type": "country",
+                "import_share_percent": 43,
+                "source_country_id": "ARGENTINA",
+                "mineral_id": "LITHIUM",
+                "nir_figure3": 50
+            }
+        },
+        {
+            "id": "276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2",
+            "node_id": "276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2",
+            "name": "276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "N",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Mozambique",
+                "source_type": "country",
+                "import_share_percent": 13,
+                "source_country_id": "MOZAMBIQUE",
+                "mineral_id": "GRAPHITE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "2b696bd00b1a079002e63b22169b5d1f89ab780c0eeafbaac04c848bdb922cc8",
+            "node_id": "2b696bd00b1a079002e63b22169b5d1f89ab780c0eeafbaac04c848bdb922cc8",
+            "name": "2b696bd00b1a079002e63b22169b5d1f89ab780c0eeafbaac04c848bdb922cc8",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "2b696bd00b1a079002e63b22169b5d1f89ab780c0eeafbaac04c848bdb922cc8",
+                "net_import_reliance_2025": 79,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Other",
+                "source_type": "aggregate_other",
+                "import_share_percent": 30,
+                "mineral_id": "COBALT",
+                "nir_figure3": 79
+            }
+        },
+        {
+            "id": "39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2",
+            "node_id": "39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2",
+            "name": "39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2",
+                "net_import_reliance_2025": 41,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Canada",
+                "source_type": "country",
+                "import_share_percent": 44,
+                "source_country_id": "CANADA",
+                "mineral_id": "NICKEL",
+                "nir_figure3": 41
+            }
+        },
+        {
+            "id": "3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3",
+            "node_id": "3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3",
+            "name": "3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3",
+                "net_import_reliance_2025": 79,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Japan",
+                "source_type": "country",
+                "import_share_percent": 14,
+                "source_country_id": "JAPAN",
+                "mineral_id": "COBALT",
+                "nir_figure3": 79
+            }
+        },
+        {
+            "id": "4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767",
+            "node_id": "4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767",
+            "name": "4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767",
+                "net_import_reliance_2025": ">50",
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Chile",
+                "source_type": "country",
+                "import_share_percent": 54,
+                "source_country_id": "CHILE",
+                "mineral_id": "LITHIUM",
+                "nir_figure3": 50
+            }
+        },
+        {
+            "id": "4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068",
+            "node_id": "4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068",
+            "name": "4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068",
+                "net_import_reliance_2025": 79,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Norway",
+                "source_type": "country",
+                "import_share_percent": 26,
+                "source_country_id": "NORWAY",
+                "mineral_id": "COBALT",
+                "nir_figure3": 79
+            }
+        },
+        {
+            "id": "65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e",
+            "node_id": "65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e",
+            "name": "65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "N",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Mexico",
+                "source_type": "country",
+                "import_share_percent": 12,
+                "source_country_id": "MEXICO",
+                "mineral_id": "GRAPHITE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "6be83c3308a06f51e6c425e86cdaf19c3259e8f424a0f37b828d001dee8c8151",
+            "node_id": "6be83c3308a06f51e6c425e86cdaf19c3259e8f424a0f37b828d001dee8c8151",
+            "name": "6be83c3308a06f51e6c425e86cdaf19c3259e8f424a0f37b828d001dee8c8151",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "6be83c3308a06f51e6c425e86cdaf19c3259e8f424a0f37b828d001dee8c8151",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "N",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Other",
+                "source_type": "aggregate_other",
+                "import_share_percent": 16,
+                "mineral_id": "GRAPHITE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206",
+            "node_id": "8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206",
+            "name": "8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "N",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "China",
+                "source_type": "country",
+                "import_share_percent": 46,
+                "source_country_id": "CHINA",
+                "mineral_id": "GRAPHITE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b",
+            "node_id": "900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b",
+            "name": "900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Gabon",
+                "source_type": "country",
+                "import_share_percent": 23,
+                "source_country_id": "GABON",
+                "mineral_id": "MANGANESE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c",
+            "node_id": "92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c",
+            "name": "92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Malaysia",
+                "source_type": "country",
+                "import_share_percent": 11,
+                "source_country_id": "MALAYSIA",
+                "mineral_id": "MANGANESE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2",
+            "node_id": "947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2",
+            "name": "947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2",
+                "net_import_reliance_2025": 41,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Norway",
+                "source_type": "country",
+                "import_share_percent": 11,
+                "source_country_id": "NORWAY",
+                "mineral_id": "NICKEL",
+                "nir_figure3": 41
+            }
+        },
+        {
+            "id": "9588cf1c572e1d5cf1f67e1b0c73554bfaeb3b6b9a2deb693d019e56c2791cb3",
+            "node_id": "9588cf1c572e1d5cf1f67e1b0c73554bfaeb3b6b9a2deb693d019e56c2791cb3",
+            "name": "9588cf1c572e1d5cf1f67e1b0c73554bfaeb3b6b9a2deb693d019e56c2791cb3",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "9588cf1c572e1d5cf1f67e1b0c73554bfaeb3b6b9a2deb693d019e56c2791cb3",
+                "net_import_reliance_2025": ">50",
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Other",
+                "source_type": "aggregate_other",
+                "import_share_percent": 3,
+                "mineral_id": "LITHIUM",
+                "nir_figure3": 50
+            }
+        },
+        {
+            "id": "9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453",
+            "node_id": "9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453",
+            "name": "9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453",
+                "net_import_reliance_2025": 41,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Brazil",
+                "source_type": "country",
+                "import_share_percent": 7,
+                "source_country_id": "BRAZIL",
+                "mineral_id": "NICKEL",
+                "nir_figure3": 41
+            }
+        },
+        {
+            "id": "a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c",
+            "node_id": "a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c",
+            "name": "a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "South Africa",
+                "source_type": "country",
+                "import_share_percent": 21,
+                "source_country_id": "SOUTH_AFRICA",
+                "mineral_id": "MANGANESE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "b0414063fe2cc57ac50bb2d46d9c779f9c4e2344daf9fade8228f448aec0ab16",
+            "node_id": "b0414063fe2cc57ac50bb2d46d9c779f9c4e2344daf9fade8228f448aec0ab16",
+            "name": "b0414063fe2cc57ac50bb2d46d9c779f9c4e2344daf9fade8228f448aec0ab16",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "b0414063fe2cc57ac50bb2d46d9c779f9c4e2344daf9fade8228f448aec0ab16",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Other",
+                "source_type": "aggregate_other",
+                "import_share_percent": 35,
+                "mineral_id": "MANGANESE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4",
+            "node_id": "b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4",
+            "name": "b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4",
+                "net_import_reliance_2025": 79,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Finland",
+                "source_type": "country",
+                "import_share_percent": 16,
+                "source_country_id": "FINLAND",
+                "mineral_id": "COBALT",
+                "nir_figure3": 79
+            }
+        },
+        {
+            "id": "c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d",
+            "node_id": "c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d",
+            "name": "c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Australia",
+                "source_type": "country",
+                "import_share_percent": 10,
+                "source_country_id": "AUSTRALIA",
+                "mineral_id": "MANGANESE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392",
+            "node_id": "e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392",
+            "name": "e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392",
+                "net_import_reliance_2025": 79,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Canada",
+                "source_type": "country",
+                "import_share_percent": 14,
+                "source_country_id": "CANADA",
+                "mineral_id": "COBALT",
+                "nir_figure3": 79
+            }
+        },
+        {
+            "id": "f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca",
+            "node_id": "f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca",
+            "name": "f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca",
+                "net_import_reliance_2025": 41,
+                "critical_mineral_flag": "Y",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Australia",
+                "source_type": "country",
+                "import_share_percent": 8,
+                "source_country_id": "AUSTRALIA",
+                "mineral_id": "NICKEL",
+                "nir_figure3": 41
+            }
+        },
+        {
+            "id": "f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd",
+            "node_id": "f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd",
+            "name": "f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd",
+            "type": "ImportSourceRecord",
+            "location": null,
+            "status": null,
+            "properties": {
+                "record_id": "f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd",
+                "net_import_reliance_2025": 100,
+                "critical_mineral_flag": "N",
+                "data_period": "2021-2024",
+                "importing_country_id": "UNITED_STATES",
+                "source_category": "Canada",
+                "source_type": "country",
+                "import_share_percent": 13,
+                "source_country_id": "CANADA",
+                "mineral_id": "GRAPHITE",
+                "nir_figure3": 100
+            }
+        },
+        {
+            "id": "COBALT",
+            "node_id": "COBALT",
+            "name": "Cobalt",
+            "type": "Mineral",
+            "location": null,
+            "status": null,
+            "properties": {
+                "primary_import_sources_2021_24": "Norway",
+                "primary_applications": "Batteries and metallurgy.",
+                "world_total_production": 310000,
+                "application_critical_mineral": "Cobalt",
+                "year": "2025_estimated",
+                "leading_source_percent_world": 74,
+                "apparent_consumption": 9600,
+                "source": "MCS2026",
+                "units": "metric tons",
+                "mineral_id": "COBALT",
+                "secondary_production": 2000,
+                "leading_source_country": "Congo (Kinshasa)",
+                "net_import_reliance": 79,
+                "applications_data_source": "USGS MCS 2026",
+                "applications_source_file": "MCS2026_T6_Critical_Minerals_End_Use.csv",
+                "leading_country_production": 230000,
+                "name": "Cobalt",
+                "primary_production": 300,
+                "critical_mineral": "Cobalt"
+            }
+        },
+        {
+            "id": "GRAPHITE",
+            "node_id": "GRAPHITE",
+            "name": "Graphite",
+            "type": "Mineral",
+            "location": null,
+            "status": null,
+            "properties": {
+                "primary_import_sources_2021_24": "China",
+                "primary_applications": "Batteries, fuel cells, and lubricants.",
+                "world_total_production": 1800000,
+                "application_critical_mineral": "Graphite",
+                "year": "2025_estimated",
+                "leading_source_percent_world": 78,
+                "apparent_consumption": 71000,
+                "source": "MCS2026",
+                "units": "metric tons",
+                "mineral_id": "GRAPHITE",
+                "secondary_production": 0,
+                "leading_source_country": "China",
+                "net_import_reliance": 100,
+                "applications_data_source": "USGS MCS 2026",
+                "applications_source_file": "MCS2026_T6_Critical_Minerals_End_Use.csv",
+                "leading_country_production": 1400000,
+                "name": "Graphite",
+                "primary_production": 0,
+                "import_source_notes": "Includes Hong Kong.",
+                "critical_mineral": "Graphite (natural)"
+            }
+        },
+        {
+            "id": "LITHIUM",
+            "node_id": "LITHIUM",
+            "name": "Lithium",
+            "type": "Mineral",
+            "location": null,
+            "status": null,
+            "properties": {
+                "primary_import_sources_2021_24": "Chile",
+                "primary_applications": "Batteries.",
+                "world_total_production": 290000,
+                "application_critical_mineral": "Lithium",
+                "year": "2025_estimated",
+                "leading_source_percent_world": 32,
+                "apparent_consumption": "W",
+                "source": "MCS2026",
+                "units": "metric tons",
+                "mineral_id": "LITHIUM",
+                "leading_source_country": "Australia",
+                "net_import_reliance": ">50",
+                "world_production_notes": "Excludes U.S. production.",
+                "applications_data_source": "USGS MCS 2026",
+                "applications_source_file": "MCS2026_T6_Critical_Minerals_End_Use.csv",
+                "leading_country_production": 92000,
+                "name": "Lithium",
+                "primary_production": "W",
+                "critical_mineral": "Lithium"
+            }
+        },
+        {
+            "id": "MANGANESE",
+            "node_id": "MANGANESE",
+            "name": "Manganese",
+            "type": "Mineral",
+            "location": null,
+            "status": null,
+            "properties": {
+                "primary_import_sources_2021_24": "Gabon",
+                "primary_applications": "Batteries and metallurgy.",
+                "world_total_production": 20000000,
+                "application_critical_mineral": "Manganese",
+                "year": "2025_estimated",
+                "leading_source_percent_world": 37,
+                "apparent_consumption": 640000,
+                "source": "MCS2026",
+                "units": "metric tons",
+                "mineral_id": "MANGANESE",
+                "leading_source_country": "South Africa",
+                "net_import_reliance": 100,
+                "applications_data_source": "USGS MCS 2026",
+                "applications_source_file": "MCS2026_T6_Critical_Minerals_End_Use.csv",
+                "leading_country_production": 7600000,
+                "name": "Manganese",
+                "primary_production": 0,
+                "critical_mineral": "Manganese"
+            }
+        },
+        {
+            "id": "NICKEL",
+            "node_id": "NICKEL",
+            "name": "Nickel",
+            "type": "Mineral",
+            "location": null,
+            "status": null,
+            "properties": {
+                "primary_import_sources_2021_24": "Canada",
+                "primary_applications": "Batteries and metallurgy.",
+                "world_total_production": 3900000,
+                "application_critical_mineral": "Nickel",
+                "year": "2025_estimated",
+                "leading_source_percent_world": 67,
+                "apparent_consumption": 220000,
+                "consumption_notes": "Nickel in primary metal and secondary scrap.",
+                "source": "MCS2026",
+                "units": "metric tons",
+                "mineral_id": "NICKEL",
+                "secondary_production": "W",
+                "leading_source_country": "Indonesia",
+                "net_import_reliance": 41,
+                "applications_data_source": "USGS MCS 2026",
+                "applications_source_file": "MCS2026_T6_Critical_Minerals_End_Use.csv",
+                "leading_country_production": 2600000,
+                "name": "Nickel",
+                "primary_production": 10000,
+                "critical_mineral": "Nickel"
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "edge-0",
+            "source": "1ba64f8e4a2f755d41efdb3faf96f3abfe8575199488cbe8dea6d93b5d6e36d7",
+            "target": "NICKEL",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-1",
+            "source": "243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef",
+            "target": "LITHIUM",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-2",
+            "source": "243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef",
+            "target": "ARGENTINA",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-3",
+            "source": "276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2",
+            "target": "GRAPHITE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-4",
+            "source": "276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2",
+            "target": "MOZAMBIQUE",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-5",
+            "source": "2b696bd00b1a079002e63b22169b5d1f89ab780c0eeafbaac04c848bdb922cc8",
+            "target": "COBALT",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-6",
+            "source": "39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2",
+            "target": "NICKEL",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-7",
+            "source": "39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2",
+            "target": "CANADA",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-8",
+            "source": "3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3",
+            "target": "COBALT",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-9",
+            "source": "3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3",
+            "target": "JAPAN",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-10",
+            "source": "4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767",
+            "target": "LITHIUM",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-11",
+            "source": "4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767",
+            "target": "CHILE",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-12",
+            "source": "4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068",
+            "target": "COBALT",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-13",
+            "source": "4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068",
+            "target": "NORWAY",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-14",
+            "source": "65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e",
+            "target": "GRAPHITE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-15",
+            "source": "65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e",
+            "target": "MEXICO",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-16",
+            "source": "6be83c3308a06f51e6c425e86cdaf19c3259e8f424a0f37b828d001dee8c8151",
+            "target": "GRAPHITE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-17",
+            "source": "8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206",
+            "target": "GRAPHITE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-18",
+            "source": "8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206",
+            "target": "CHINA",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-19",
+            "source": "900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b",
+            "target": "MANGANESE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-20",
+            "source": "900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b",
+            "target": "GABON",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-21",
+            "source": "92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c",
+            "target": "MANGANESE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-22",
+            "source": "92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c",
+            "target": "MALAYSIA",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-23",
+            "source": "947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2",
+            "target": "NICKEL",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-24",
+            "source": "947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2",
+            "target": "NORWAY",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-25",
+            "source": "9588cf1c572e1d5cf1f67e1b0c73554bfaeb3b6b9a2deb693d019e56c2791cb3",
+            "target": "LITHIUM",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-26",
+            "source": "9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453",
+            "target": "NICKEL",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-27",
+            "source": "9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453",
+            "target": "BRAZIL",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-28",
+            "source": "AUSTRALIA",
+            "target": "LITHIUM",
+            "type": "LEADING_PRODUCER_FOR",
+            "properties": {
+                "world_total_production": 290000,
+                "year": "2025_estimated",
+                "production": 92000,
+                "units": "metric tons",
+                "share_of_world_percent": 32
+            }
+        },
+        {
+            "id": "edge-29",
+            "source": "CHINA",
+            "target": "GRAPHITE",
+            "type": "LEADING_PRODUCER_FOR",
+            "properties": {
+                "world_total_production": 1800000,
+                "year": "2025_estimated",
+                "production": 1400000,
+                "units": "metric tons",
+                "share_of_world_percent": 78
+            }
+        },
+        {
+            "id": "edge-30",
+            "source": "CONGO_KINSHASA",
+            "target": "COBALT",
+            "type": "LEADING_PRODUCER_FOR",
+            "properties": {
+                "world_total_production": 310000,
+                "year": "2025_estimated",
+                "production": 230000,
+                "units": "metric tons",
+                "share_of_world_percent": 74
+            }
+        },
+        {
+            "id": "edge-31",
+            "source": "DISRUPTION_NEWS001",
+            "target": "UNITED_STATES",
+            "type": "AFFECTS_COUNTRY",
+            "properties": {
+                "impact_note": "The disruption occurred at U.S. West Coast ports.",
+                "impact_evidence_json": "[{\"text\": \"A labour dispute at U.S. West Coast ports disrupted Asian supply lines and cargo movements. The earlier summary associated production slowdowns with automotive manufacturers. Verify each company-level impact against the full article before creating graph relationships.\", \"source_field\": \"description\"}]",
+                "impact_status": "affected",
+                "verification_status": "manually_verified"
+            }
+        },
+        {
+            "id": "edge-32",
+            "source": "DISRUPTION_NEWS002",
+            "target": "CHINA",
+            "type": "AFFECTS_COUNTRY",
+            "properties": {
+                "impact_note": "The explosion at Tianjin disrupted port operations.",
+                "impact_evidence_json": "[{\"text\": \"An explosion at Tianjin disrupted port operations, including iron ore deliveries and tanker activity. Verify the named companies' direct exposure and exact shipment impacts from the article before encoding relationships.\", \"source_field\": \"description\"}]",
+                "impact_status": "affected",
+                "verification_status": "manually_verified"
+            }
+        },
+        {
+            "id": "edge-33",
+            "source": "DISRUPTION_NEWS003",
+            "target": "UNITED_STATES",
+            "type": "AFFECTS_COUNTRY",
+            "properties": {
+                "impact_note": "The disruption affected cargo movements and import logistics in the United States.",
+                "impact_evidence_json": "[{\"text\": \"Hanjin Shipping's crisis disrupted cargo movements and created logistical difficulties for U.S. importers. Confirm each named importer and port connection against the full report before adding graph edges.\", \"source_field\": \"description\"}]",
+                "impact_status": "affected",
+                "verification_status": "manually_verified"
+            }
+        },
+        {
+            "id": "edge-34",
+            "source": "DISRUPTION_NEWS004",
+            "target": "INDIA",
+            "type": "AFFECTS_COUNTRY",
+            "properties": {
+                "impact_note": "The cyberattack disrupted operations at the JNPT terminal in India.",
+                "impact_evidence_json": "[{\"text\": \"The global cyberattack affected Maersk's operations and disrupted activity at the JNPT terminal operated by APM Terminals. Treat any additional port impact as a separate claim requiring confirmation.\", \"source_field\": \"description\"}]",
+                "impact_status": "affected",
+                "verification_status": "manually_verified"
+            }
+        },
+        {
+            "id": "edge-35",
+            "source": "DISRUPTION_NEWS005",
+            "target": "DOMINICAN_REPUBLIC",
+            "type": "AFFECTS_COUNTRY",
+            "properties": {
+                "impact_note": "Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria.",
+                "impact_evidence_json": "[{\"text\": \"Ports in the Dominican Republic were shut or prepared for closure ahead of Hurricane Maria. The listed energy companies and facilities need individual verification against the article before asserting direct impact relationships.\", \"source_field\": \"description\"}]",
+                "impact_status": "affected",
+                "verification_status": "manually_verified"
+            }
+        },
+        {
+            "id": "edge-36",
+            "source": "INDONESIA",
+            "target": "NICKEL",
+            "type": "LEADING_PRODUCER_FOR",
+            "properties": {
+                "world_total_production": 3900000,
+                "year": "2025_estimated",
+                "production": 2600000,
+                "units": "metric tons",
+                "share_of_world_percent": 67
+            }
+        },
+        {
+            "id": "edge-37",
+            "source": "SOUTH_AFRICA",
+            "target": "MANGANESE",
+            "type": "LEADING_PRODUCER_FOR",
+            "properties": {
+                "world_total_production": 20000000,
+                "year": "2025_estimated",
+                "production": 7600000,
+                "units": "metric tons",
+                "share_of_world_percent": 37
+            }
+        },
+        {
+            "id": "edge-38",
+            "source": "UNITED_STATES",
+            "target": "1ba64f8e4a2f755d41efdb3faf96f3abfe8575199488cbe8dea6d93b5d6e36d7",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-39",
+            "source": "UNITED_STATES",
+            "target": "243ff2491fed9f3dda2d5902bf9118415c0778b60f8512d7c4b909603c42afef",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-40",
+            "source": "UNITED_STATES",
+            "target": "276268a48486f8e3a5c1567934bb4be71fa551ea2195229643543d3bf75d43b2",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-41",
+            "source": "UNITED_STATES",
+            "target": "2b696bd00b1a079002e63b22169b5d1f89ab780c0eeafbaac04c848bdb922cc8",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-42",
+            "source": "UNITED_STATES",
+            "target": "39266e099d348a44d4fd2ffdb78ac59ecf33e6bb0d64b29d481c75069db7f7c2",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-43",
+            "source": "UNITED_STATES",
+            "target": "3c8d9abc9066549070dbd4459875df6fb87a11f3ab11b61d6dd6ac839dfcb7e3",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-44",
+            "source": "UNITED_STATES",
+            "target": "4a4101dd9645108bab65ffbe1eaa39bf851af3d68a86ce36902fb2ee58dac767",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-45",
+            "source": "UNITED_STATES",
+            "target": "4be20f8f2a0344766f55ac5d3c269110605ebf047443f023e66dbdd5cb018068",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-46",
+            "source": "UNITED_STATES",
+            "target": "65b9db987d99ec9291d56f740fd56116558887f43d6ab8b4479feffc71be472e",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-47",
+            "source": "UNITED_STATES",
+            "target": "6be83c3308a06f51e6c425e86cdaf19c3259e8f424a0f37b828d001dee8c8151",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-48",
+            "source": "UNITED_STATES",
+            "target": "8607c843909ac0da7415743ab003916acbcb5d9c774cb3e21149a3053934c206",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-49",
+            "source": "UNITED_STATES",
+            "target": "900da4f95d29d48fe1fecbf0e3362b72b3ed2d07442418f5e7a66f7b4171562b",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-50",
+            "source": "UNITED_STATES",
+            "target": "92f71618dc2aa45d4a43c35dd678b09f4cdedcc7ea0df923fedf0ab857f36c9c",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-51",
+            "source": "UNITED_STATES",
+            "target": "947be55cff2d9f1fc5592394242d1bb0d4617dadcbead35c7eba510938a022c2",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-52",
+            "source": "UNITED_STATES",
+            "target": "9588cf1c572e1d5cf1f67e1b0c73554bfaeb3b6b9a2deb693d019e56c2791cb3",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-53",
+            "source": "UNITED_STATES",
+            "target": "9c958e61d06b44552e0140515863066c3cd3e055d46b50220e0015d56905f453",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-54",
+            "source": "UNITED_STATES",
+            "target": "a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-55",
+            "source": "UNITED_STATES",
+            "target": "b0414063fe2cc57ac50bb2d46d9c779f9c4e2344daf9fade8228f448aec0ab16",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-56",
+            "source": "UNITED_STATES",
+            "target": "b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-57",
+            "source": "UNITED_STATES",
+            "target": "c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-58",
+            "source": "UNITED_STATES",
+            "target": "e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-59",
+            "source": "UNITED_STATES",
+            "target": "f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-60",
+            "source": "UNITED_STATES",
+            "target": "f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd",
+            "type": "HAS_IMPORT_RECORD",
+            "properties": {}
+        },
+        {
+            "id": "edge-61",
+            "source": "a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c",
+            "target": "MANGANESE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-62",
+            "source": "a96f67ef45718c323b865587d9f539e53813738583896a0f5ca14beef13e3f0c",
+            "target": "SOUTH_AFRICA",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-63",
+            "source": "b0414063fe2cc57ac50bb2d46d9c779f9c4e2344daf9fade8228f448aec0ab16",
+            "target": "MANGANESE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-64",
+            "source": "b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4",
+            "target": "COBALT",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-65",
+            "source": "b22e9b821e8fa163ffd5dfce8615bb763aae0b2cff4aedf505bbf80330be53b4",
+            "target": "FINLAND",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-66",
+            "source": "c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d",
+            "target": "MANGANESE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-67",
+            "source": "c551efe5f1534118a71ab76ed9f32cee9bc9bfc22339bc17072278174cba112d",
+            "target": "AUSTRALIA",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-68",
+            "source": "e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392",
+            "target": "COBALT",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-69",
+            "source": "e2455a44c32224a81166baaba1cec7c6c4e4597e84814b03a274fb0b3d10f392",
+            "target": "CANADA",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-70",
+            "source": "f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca",
+            "target": "NICKEL",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-71",
+            "source": "f266f8c1c636cdf2f141d1cf85afc3bf050dfeb92d757573ccee90851d9e90ca",
+            "target": "AUSTRALIA",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        },
+        {
+            "id": "edge-72",
+            "source": "f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd",
+            "target": "GRAPHITE",
+            "type": "FOR_MINERAL",
+            "properties": {}
+        },
+        {
+            "id": "edge-73",
+            "source": "f69a5776863cf4c0706366cf5b12007fe5b3c4d638cf0fc9322a85de93f047bd",
+            "target": "CANADA",
+            "type": "SOURCE_COUNTRY",
+            "properties": {}
+        }
+    ],
+    "metadata": {
+        "total_nodes": 52,
+        "total_edges": 74,
+        "data_source": "Neo4j",
+        "database": "amtograph"
+    }
+}
